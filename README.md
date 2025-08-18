@@ -1,8 +1,9 @@
 # EXPERIMENT--01-ALP-FOR-8086
-Name :
-Roll no 
-Date of experiment :
-
+Name : Alan Samuel Vedanayagam
+<br>
+Roll no : 212223040012
+<br>
+Date of experiment : 18-08-2025
 
 
 
@@ -75,29 +76,70 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 
 
 
-## Programs for arithmetic  operations
+# Programs for arithmetic  operations
 
 ## Addition  of 8 bit ALP 
+```
+org 100h
 
-
+mov ax,0765h;
+mov bx,0767h;
+add ax,bx;
+ret
+```
 
 ## Output  
- 
+<img width="851" height="423" alt="Screenshot 2025-08-18 101747" src="https://github.com/user-attachments/assets/f76d1780-10cd-4b30-8930-4ec80fa22278" />
+<img width="1051" height="697" alt="Screenshot 2025-08-18 101811" src="https://github.com/user-attachments/assets/07179e14-95ac-41b5-ae41-c76286d1403a" />
+
 ## Subtraction   of 8 bit numbers  ALP 
- 
+```
+org 100h
+
+mov ax,123;
+mov bx,125;
+sub ax,bx;
+
+ret
+```
 ## Output  
+<img width="850" height="317" alt="Screenshot 2025-08-18 102139" src="https://github.com/user-attachments/assets/82fe885b-bd69-48a8-ab96-a933c332dbb0" />
+<img width="1051" height="710" alt="Screenshot 2025-08-18 102203" src="https://github.com/user-attachments/assets/a1f2e18b-7945-48a6-b2b5-cf47e9942e83" />
+
 ## Multiplication alp 
+```
+org 100h
+
+mov ax,[0070h];
+mov bx,[0072h];
+mul bx
+ret
+```
  ## Output  
+<img width="852" height="472" alt="Screenshot 2025-08-18 100307" src="https://github.com/user-attachments/assets/1ae397cc-7da1-4d4f-8476-2961b88fa27d" />
+<img width="1665" height="735" alt="Screenshot 2025-08-18 100339" src="https://github.com/user-attachments/assets/cf5e4c8a-4fed-4ff7-bd9c-af43ba528fcb" />
 
 
 ## Division alp 
+```
+org 100h
 
+
+mov ax,[0077h]
+mov bx,[0079h]
+div bx
+
+
+ret
+```
 ## Output  
+<img width="837" height="322" alt="Screenshot 2025-08-18 101111" src="https://github.com/user-attachments/assets/30306388-746c-4a3c-a570-42090263a658" />
+<img width="1670" height="742" alt="Screenshot 2025-08-18 101139" src="https://github.com/user-attachments/assets/7a0d7099-0b79-4499-a00b-2c2d770e597a" />
 
 
 ## Result :
  
-
+Thus, we have have written and executed alp on fundamental arithmetic (add,sub,mul,div) and logical operations (and,or,not,xor) successfully
 
 
 
